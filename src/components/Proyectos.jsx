@@ -1,9 +1,11 @@
 import Titulo from "./sub_component/Titulo";
 import crudPdf from "../assets/crudPdf.webp";
 import todoApp from "../assets/todoApp.webp";
+import apiTaskAuth from "../assets/api_task_auth.webp";
 import Button from "./sub_component/Button";
 import CrudProyectos from "./sub_component/CardProyectos";
 import { LogoProjects } from "./sub_component/Icons";
+import { Link } from "react-router-dom";
 export default function Proyectos() {
   return (
     <div className="flex flex-col w-full gap-8">
@@ -58,6 +60,33 @@ export default function Proyectos() {
               nombre={"Preview"}
               href={"https://cv-todo-app.vercel.app/"}
             />
+          }
+        />
+
+        <CrudProyectos
+          titulo={"Api de tareas con autenticación"}
+          subTitulo={"Nodejs, Express, Jwt y Mysql"}
+          descripcion={
+            "Api para poder crear tareas con autenticación, en donde cada usuario logueado podra ver sus tareas a su vez podra crear su propia tarea, todo se guarda en base de datos para que la información persista."
+          }
+          imagen={apiTaskAuth}
+          alt={"Api de tareas con autenticación"}
+          btnGit={
+            <Button
+              className={"animate-none shadow-sm border-none  "}
+              nombre={"GitHub"}
+              href={"https://github.com/JoochiDev/cv_task_auth"}
+            />
+          }
+          btnPreview={
+            <Link to={"/api_doc"}>
+              <Button
+                className={
+                  "animate-none shadow-sm border-none md:hover:text-orange-100/90"
+                }
+                nombre={"Preview"}
+              />
+            </Link>
           }
         />
       </div>

@@ -8,7 +8,7 @@ const CardProyectos = ({
   alt,
 }) => {
   return (
-    <figure className="md:flex border border-[#FFEEAD] bg-[#110e1b] shadow-2xl  shadow-[#FFEEAD] md:shadow-none hover:shadow-xl  hover:shadow-[#FFAD60]/40 rounded-xl p-6 md:p-2 md:hover:grayscale-0 delay-150 md:hover:scale-105 ease-in duration-100">
+    <figure className="md:flex border border-[#FFEEAD] bg-[#110e1b] shadow-2xl  shadow-[#FFEEAD] md:shadow-none hover:shadow-xl  hover:shadow-[#FFAD60]/40 rounded-xl p-6 md:p-2 delay-150 md:hover:scale-105 ease-in duration-100">
       <img
         className="w-[400px] h-[260px] p-2 md:w-[400px] md:h-auto 2xl:w-[600px] 2xl:h-auto mx-auto rounded-xl"
         src={imagen}
