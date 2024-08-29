@@ -47,7 +47,7 @@ export default function Navegacion() {
           </a>
           <div className="flex items-center justify-center">
             <span className="md:text-md text-md font-medium text-[#faf3dd] sm:text-verdeBase leading-4 lg:text-md lg:leading-4 2xl:text-3xl 2xl:leading-10">
-              JhoochiDev
+              MuchiDev
             </span>
           </div>
         </div>

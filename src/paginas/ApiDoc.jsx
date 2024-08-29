@@ -3,7 +3,7 @@ export default function ApiDoc() {
     <div className="bg-gray-100 min-h-screen p-4 md:p-10">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
         <h1 className="text-3xl font-bold mb-6 text-center">
-          API Documentación
+          MuchiAPI Documentación
         </h1>
 
         <section className="mb-8">
